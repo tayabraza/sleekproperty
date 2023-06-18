@@ -9,7 +9,11 @@ function Card({card, onCardClick}){
 
                     <span className="property-id">{card.id}</span>
 
-                    <img src={card.image} alt={'Property ' + card.id} className="property-image" />
+                    <img src={card.image} alt={'Property Thumbnail'} className="property-image" lazy="true" />
+
+                    <div className="album" style={{'display': 'none'}}>
+                        {card.album.map( (img, index) => <img src={img} alt={'Album image ' + Number(index + 1)} key={Number(index + 1)} lazy="true" /> )}
+                    </div>
 
                     <span className="property-type">
                         {card.type} {card.typeB}
