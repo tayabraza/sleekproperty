@@ -7,7 +7,9 @@ function Header(){
     return(
 
         <header>
-            <img src={logo} className="logo" alt="logo" />
+            <a href='/'>
+                <img src={logo} className="logo" alt="Sleek Property Logo" />
+            </a>
             <Nav />
         </header>
 
