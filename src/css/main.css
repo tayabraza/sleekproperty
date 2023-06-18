@@ -162,6 +162,10 @@ nav {
     width: 190px;
     margin: 1.5rem 1.5rem 1.5rem 0;
 }
+.album-image:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 1rem 0.1rem #EDC33F;
+}
 
 .album::-webkit-scrollbar {
     height: 0.5rem;
@@ -246,6 +250,7 @@ nav {
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     background-color: #353535;
     color: #EDC33F;

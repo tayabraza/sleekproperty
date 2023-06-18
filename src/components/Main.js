@@ -36,7 +36,7 @@ function Main(){
             image: event.currentTarget.querySelector('.property-image').src,
             album: Array.from(event.currentTarget.querySelectorAll('.album > img')),
             type: event.currentTarget.querySelector('.property-type').innerText,
-            price: event.currentTarget.querySelector('.property-price').innerText,
+            price: event.currentTarget.querySelector('.property-price').innerText.slice(1),
             address: event.currentTarget.querySelector('.property-address').innerText,
             description: event.currentTarget.querySelector('.property-description').innerText
         }
