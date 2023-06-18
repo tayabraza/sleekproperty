@@ -10,7 +10,7 @@ function Services(){
 
             <div className="property-container">
 
-                <p style={{"margin": "30px auto"}}>
+                <p>
                     Sleek Property Management offer an exemplary service to local landlords. Our property management team is always at hand when it comes to day to day management of your property including finding and retaining your tenant, collecting rent and overseeing maintenance and compliancy. We make sure your property is regularly inspected, monitored and maintained to your needs, standards and expectations. 
                 </p>
 
